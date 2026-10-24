@@ -10,7 +10,7 @@ logger = get_logger('Updater')
 class SimpleUpdateChecker:
     def __init__(self, current_version):
         self.current_version = current_version
-        self.github_repo = "NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer"
+        self.github_repo = "NinurtaKalhu/Elite-Dangerous-Multi-Route-Navigation"
         self.latest_release_url = f"https://api.github.com/repos/{self.github_repo}/releases/latest"
         self.update_available = False
         self.latest_version = None
